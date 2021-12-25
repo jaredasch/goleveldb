@@ -23,7 +23,7 @@ const (
 
 var (
 	DefaultBlockCacher                   = LRUCacher
-	DefaultBlockCacheCapacity            = 16 * MiB
+	DefaultBlockCacheCapacity            = 32 * MiB
 	DefaultBlockRestartInterval          = 16
 	DefaultBlockSize                     = 4 * KiB
 	DefaultCompactionExpandLimitFactor   = 25
