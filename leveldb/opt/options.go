@@ -37,7 +37,7 @@ var (
 	DefaultCompressionType               = SnappyCompression
 	DefaultIteratorSamplingRate          = 1 * MiB
 	DefaultOpenFilesCacher               = LRUCacher
-	DefaultWriteBuffer                   = 4 * MiB
+	DefaultWriteBuffer                   = 4 * GiB
 	DefaultWriteL0PauseTrigger           = 12
 	DefaultWriteL0SlowdownTrigger        = 8
 	DefaultFilterBaseLg                  = 11
